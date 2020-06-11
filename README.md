@@ -16,3 +16,15 @@ Clone or Download the code.
 Run npm -i  , npm install authy , npm i body-parser
 Replace 'your-auth-key' with your generated key.
 Run node app.js to run the application.
+
+/register 
+- Takes 3 query paramaters : 
+  1. email
+  2. phone no
+  3. countryCode
+  
+  
+ /verify
+ - Takes 2 query parameters:
+    1. id - (generated on successful registration of user displayed in console)
+    2. token - OTP send to phone via sms
