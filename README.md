@@ -13,6 +13,6 @@ Assuming you are now an Authy user and logged in to your dashboard, use followin
 
 
 Clone or Download the code.
-Run npm -i 
+Run npm -i  , npm install authy , npm i body-parser
 Replace 'your-auth-key' with your generated key.
 Run node app.js to run the application.
